@@ -1,0 +1,62 @@
+{
+  "dataset_rows": 150,
+  "feature_count": 4,
+  "kmeans_k": 3,
+  "standardized_before_clustering_and_pca": true,
+  "pca_explained_variance_ratio": [
+    0.7296244541329989,
+    0.22850761786701754
+  ],
+  "pca_two_component_total_variance": 0.9581320720000165,
+  "silhouette_score_on_scaled_features": 0.45994823920518646,
+  "adjusted_rand_index_vs_true_species": 0.6201351808870379,
+  "matched_accuracy_for_evaluation_only": 0.8333333333333334,
+  "cluster_to_species_for_evaluation_only": {
+    "1": "setosa",
+    "0": "versicolor",
+    "2": "virginica"
+  },
+  "elbow_inertia": [
+    {
+      "k": 1,
+      "inertia": 599.9999999999999
+    },
+    {
+      "k": 2,
+      "inertia": 222.36170496502297
+    },
+    {
+      "k": 3,
+      "inertia": 139.82049635974974
+    },
+    {
+      "k": 4,
+      "inertia": 114.09232824357456
+    },
+    {
+      "k": 5,
+      "inertia": 90.80759161913353
+    },
+    {
+      "k": 6,
+      "inertia": 80.02218752722615
+    },
+    {
+      "k": 7,
+      "inertia": 71.03343108154414
+    },
+    {
+      "k": 8,
+      "inertia": 62.514939989313184
+    },
+    {
+      "k": 9,
+      "inertia": 54.22647276154636
+    },
+    {
+      "k": 10,
+      "inertia": 47.391035176347074
+    }
+  ],
+  "saved_models_reloaded_successfully": true
+}
